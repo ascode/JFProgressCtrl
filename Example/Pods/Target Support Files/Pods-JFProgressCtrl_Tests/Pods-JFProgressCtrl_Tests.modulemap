@@ -1,0 +1,6 @@
+framework module Pods_JFProgressCtrl_Tests {
+  umbrella header "Pods-JFProgressCtrl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

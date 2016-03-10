@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import JFProgressCtrl
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let testProgress : JFProgressCtrl = JFProgressCtrl(frame : CGRect(x: 0, y: 200, width: self.view.frame.width , height: 50))
+        testProgress.setProgressValue(50)
+        self.view.addSubview(testProgress)
+        
+
     }
 
     override func didReceiveMemoryWarning() {

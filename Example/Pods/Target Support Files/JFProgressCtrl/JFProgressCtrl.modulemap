@@ -1,0 +1,6 @@
+framework module JFProgressCtrl {
+  umbrella header "JFProgressCtrl-umbrella.h"
+
+  export *
+  module * { export * }
+}
