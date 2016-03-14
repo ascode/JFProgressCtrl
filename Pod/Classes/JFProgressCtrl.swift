@@ -38,7 +38,7 @@ public class JFProgressCtrl: UIView {
         
         //获得处理的上下文
         let ctx = UIGraphicsGetCurrentContext()
-        CGContextAddLineToPoint(ctx, 5 , 5)
+        //CGContextAddLineToPoint(ctx, 5 , 5)
         
         //指定直线样式
         CGContextSetLineCap(ctx, CGLineCap.Butt)
